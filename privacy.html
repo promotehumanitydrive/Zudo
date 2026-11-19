@@ -24,12 +24,12 @@
 <body>
 <main>
 <h1>Zudo Privacy Policy</h1>
-<p class="meta">App: Zudo (Android package <code>com.gujjar.zudo</code>) · Last updated: November 18, 2026</p>
+<p class="meta">App: Zudo (Android package <code>com.gujjar.zudo</code>) · Last updated: November 16, 2026</p>
 
 <p>Zudo is a Ludo board game. You can play offline on one device, or online with other players. This policy explains what data the app collects, why, who processes it, how long it is kept, and how you can delete it.</p>
 
 <div class="card">
-<strong>In short:</strong> Zudo has no ads, no in-app purchases and no real-money gambling. We do not sell your data or share it for advertising. Offline games (vs Computer and Local PvP) send nothing to our servers.
+<strong>In short:</strong> Zudo is free and shows ads through Google AdMob (a banner on the home screen and an occasional full-screen ad between matches). There are no in-app purchases and no real-money gambling. We do not sell your data. Offline games (vs Computer and Local PvP) send no game data to our servers; the ads SDK still contacts Google when it shows an ad.
 </div>
 
 <h2>1. Data we collect</h2>
@@ -48,16 +48,34 @@
 </tbody>
 </table>
 <p>Some settings (sound, vibration) and your sign-in session are stored only on your device.</p>
-<p>We do <strong>not</strong> collect your location, contacts, photos, microphone, camera, advertising ID or payment information.</p>
+<p>Zudo itself does <strong>not</strong> collect your location, contacts, photos, microphone, camera or payment information. The Google AdMob SDK collects some device data to show ads; see section 3 below.</p>
 
 <h2>2. Who processes your data</h2>
 <p>Zudo uses <strong>Supabase</strong> (supabase.com) as its data processor. Supabase hosts our database, authentication, realtime game sync and server functions. Supabase processes data only on our behalf, under its own security and privacy terms. If you choose Google sign-in, Google shares your account ID and email with us under Google's own privacy policy.</p>
-<p>We do not sell, rent or trade personal data. We do not share it with advertisers or data brokers. We may disclose data only if required by law.</p>
+<p>We do not sell, rent or trade personal data. We do not give your account, chat or game data to advertisers or data brokers. We may disclose data only if required by law.</p>
 
-<h2>3. What other players can see</h2>
+<h2>3. Advertising (Google AdMob)</h2>
+<p>Zudo shows ads using <strong>Google AdMob</strong>, a service of Google LLC. We use only two formats: a banner at the bottom of the home screen and an occasional full-screen (interstitial) ad between matches. There are no rewarded or video-for-reward ads. To serve and measure ads and to prevent fraud, the AdMob SDK on your device may collect and send to Google:</p>
+<ul>
+<li>your device's <strong>advertising ID</strong> and other device identifiers,</li>
+<li>approximate location derived from your IP address,</li>
+<li>device and app information (model, OS version, app version, language), and</li>
+<li>ad interactions and diagnostics (which ads were shown or tapped, crash and performance data).</li>
+</ul>
+<p>Google processes this data under its own policies. See <a href="https://policies.google.com/technologies/ads">How Google uses cookies and data in advertising</a>, <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p><strong>Your choices.</strong></p>
+<ul>
+<li>Where the law requires it (for example in the EEA, the UK and Switzerland), Zudo asks for your consent with Google's consent form before any ad is requested. You can change your choice at any time in <strong>Settings &gt; Privacy options</strong>. This entry appears whenever your region requires it.</li>
+<li>If you don't consent, ads may be limited to non-personalised ads, or no ads are shown.</li>
+<li>On Android you can reset or delete your advertising ID, or opt out of personalised ads, in your device settings (<em>Settings &gt; Privacy &gt; Ads</em>, or <em>Google &gt; Ads</em>, depending on the device).</li>
+<li>Ads are configured for a teen-and-older audience (content rating up to "T"). Zudo is not directed to children.</li>
+</ul>
+<p>Ads are never shown during a game. They appear only on the home screen (a banner) and occasionally between matches (a full-screen ad, at most once every 3 matches and 3 minutes apart).</p>
+
+<h2>4. What other players can see</h2>
 <p>Other players can see your username, avatar, country (if set), featured badge, level and public stats. They also see your chat messages in rooms you join and your position on leaderboards. Your email address and account ID are never shown to other players.</p>
 
-<h2>4. Chat and user-generated content</h2>
+<h2>5. Chat and user-generated content</h2>
 <p>Chat is written by players, not by us. To keep it friendly:</p>
 <ul>
 <li>A profanity filter (including common Roman Urdu terms) masks offensive words, and messages are rate-limited.</li>
@@ -65,31 +83,31 @@
 <li>Please don't share personal information (phone number, address, other social accounts) in chat.</li>
 </ul>
 
-<h2>5. How long we keep data</h2>
+<h2>6. How long we keep data</h2>
 <ul>
 <li><strong>Account, profile, stats, badges, friends:</strong> until you delete your account.</li>
 <li><strong>Rooms and their chat:</strong> deleted automatically when the room is cleaned up (empty lobbies after about 3 hours, finished rooms after about 1 day, abandoned games after about 6 hours of inactivity).</li>
-<li><strong>Crash and error logs:</strong> deleted after 30 days.</li>
+<li><strong>Crash and error logs</strong> (error message, technical stack trace, app build number, platform): deleted after 30 days.</li>
 <li><strong>Match history:</strong> kept so other players' histories stay complete. If you delete your account, your entries are anonymised (shown as "Deleted player").</li>
 <li>Our hosting provider may keep copies in encrypted backups for a limited period before they are overwritten.</li>
 </ul>
 
-<h2>6. Deleting your account and data</h2>
-<p>In the app: <strong>Settings &gt; Delete my account</strong>, then type <code>DELETE</code> to confirm. This deletes your account and data right away. You can also request deletion by email. Full details: <a href="delete-account.html">How to delete your Zudo account</a>.</p>
+<h2>7. Deleting your account and data</h2>
+<p>In the app: <strong>Settings &gt; Delete my account</strong>, then type <code>DELETE</code> to confirm. This deletes your account and data right away. You can also request deletion by emailing <a href="mailto:bilawalp68@gmail.com?subject=Zudo%20account%20deletion">bilawalp68@gmail.com</a>. Full details: <a href="delete-account.html">How to delete your Zudo account</a>.</p>
 
-<h2>7. Children</h2>
+<h2>8. Children</h2>
 <p>Zudo is not directed to children under 13, and we do not knowingly collect personal data from children under 13. If you believe a child under 13 has created an account, contact us and we will delete it.</p>
 
-<h2>8. Security</h2>
+<h2>9. Security</h2>
 <p>Data is sent over encrypted connections (HTTPS/TLS). Database access is restricted per user by row-level security rules. Game results, dice rolls and stats are calculated on our server, not on your device.</p>
 
-<h2>9. Your rights</h2>
+<h2>10. Your rights</h2>
 <p>Depending on where you live, you may have the right to access, correct, export or delete your data, or to object to its processing. Most of this you can do in the app (edit your profile, delete your account). For anything else, email us.</p>
 
-<h2>10. Changes to this policy</h2>
+<h2>11. Changes to this policy</h2>
 <p>If we change this policy, we will update the "Last updated" date above. For significant changes we will also tell you in the app.</p>
 
-<h2>11. Contact</h2>
+<h2>12. Contact</h2>
 <p>Email: <a href="mailto:bilawalp68@gmail.com">bilawalp68@gmail.com</a></p>
 </main>
 </body>
